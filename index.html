@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cómo votan los diputados?</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?v1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css?v1">
+	<link rel="stylesheet" type="text/css" href="css/style_datatable.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css?v1">
+<!--
+	<script type="text/javascript" src="d3.v3.js"></script>
+ -->
+	<script type="text/javascript" src="js/d3.v3.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script>
+	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/handlebars.js"></script>
+	<script type="text/javascript" src="js/script_datatable.js"></script>
+	<script type="text/javascript" src="js/script.js?v3"> </script>
+
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<!-- <h1>Cómo votan los diputados?</h1> -->
+			<a href="https://twitter.com/datafestAR" class="brand">@DatafestAR - 2013</a>
+			<!-- <a href="#" class="brand">Atapas#index</a> -->
+			<div class="nav-collapse">
+				<ul class="nav pull-right" id="tab">
+					<li class="active"><a href="#tab_index" class="active">HOME</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="tab-pane active" id="tab_index">
+		<div class="row-fluid">
+			<div id="" class="span12">
+				<h3>Datos extraidos de CIJ | año 2008 al 2013</h3>
+				<hr>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div id="" class="span4">
+				<h3>Tribunales</h3>
+				<ul id="tribunales" class="lista">
+				</ul>
+			</div>
+			<div id="" class="span8">
+				<div class="cont_barras">
+					<div id="viz_ref_p"> <h2></h2> </div>
+					<div id="viz_ref"> <h2></h2> </div>
+					<div id="#" class="well">
+						<svg id="svg_donut" width="600" height="400"></svg>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="footer" class="">
+  <div class="container">
+    <p class="credit">Equipo de trabajo: <a href="https://twitter.com/cbertelegni">@cbertelegni</a> - Isabel Duelo - Rocio Cairo</p>
+    <p class="credit">Tecnologías: <a href="http://d3js.org/">d3.js</a> | <a href="http://jquery.com/">Jquery</a> | <a href="http://getbootstrap.com/">Bootstrap</a> </p>
+  </div>
+</footer>
+<div id="tooltip"></div>
+</body>
+</html>
