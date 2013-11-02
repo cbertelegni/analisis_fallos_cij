@@ -16,7 +16,7 @@ var COL = {
 
 var data;
 // d3.text("leyes_diputados.csv", function(data) { // get csv ### csv local para desarrollo
-d3.text( "db/tribunal_rosario_all", function(data) { // get csv from google
+d3.text( "db/cij_all", function(data) { // get csv from google
 
 	data = d3.csv.parseRows(data); // parsear csv
 	var head = data[0]; // cabecera de la tabla
