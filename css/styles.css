@@ -1,0 +1,28 @@
+/*
+
+body { padding: 40px 0 0}
+*/
+
+#tooltip { padding: 10px; position: fixed; top: 0; left: 0; background: rgba(30, 30, 30, .6); color: #fff; border-radius: 5px; border: solid 1px #fff; display: none}
+
+
+
+ul.lista { list-style: none; margin: 0}
+ul.lista li { padding: 3px 0 3px 10px; cursor: pointer; margin: 1px 0;cursor: pointer; display: inline-block; }
+ul.lista li:hover { background: #49AFCD; color: #fff; }
+ul.lista li.active { background: #2F96B4; color: #fff; }
+
+.cont_barras { width: 90%; margin: 0 auto;}
+ul.scroll { max-height: 460px; overflow: auto;}
+
+path { fill: #fff; stroke: #fff;}
+.referencias text { font-size: 12px}
+text.title { font-size: 16px; font-weight: bold; text-transform: uppercase; }
+text.bajada { font-size: 12px; }
+
+div.bloques { text-align: center;}
+/*
+footer { padding: 60px 0; margin: 80px 0 0; border-top: solid 1px #ccc}
+*/
+.center { text-align: center;}
+a:hover{ color: #fff}

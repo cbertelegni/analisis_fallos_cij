@@ -1,0 +1,11 @@
+div.dataTables_length label{float:left;text-align:left}
+div.dataTables_length select,div.dataTables_filter input/*,div.dataTables_info,div.dataTables_paginate */{display:inline-block}
+div.dataTables_length select{width:75px}
+div.dataTables_filter label{float:right}
+div.dataTables_info{float:right;clear:right;text-align:right;padding:8px 8px 0 0}
+div.dataTables_paginate{float:right;margin:0}
+table{clear:both;margin:1em 0}
+table.dataTable th:active{outline:none}
+.sorting_asc{background:url(../img/sort_asc.png) no-repeat center right}
+.sorting_desc{background:url(../img/sort_desc.png) no-repeat center right}
+.sorting{background:url(../img/sort_both.png) no-repeat center right}

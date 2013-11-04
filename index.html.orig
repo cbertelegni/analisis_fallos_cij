@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<<<<<<< HEAD
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Analisis fallos cij : Análisis de los fallos presentados por CIJ  // DATAFESTAR 2013" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Analisis fallos cij</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/cbertelegni/analisis_fallos_cij">View on GitHub</a>
+
+          <h1 id="project_title">Analisis fallos cij</h1>
+          <h2 id="project_tagline">Análisis de los fallos presentados por CIJ  // DATAFESTAR 2013</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/cbertelegni/analisis_fallos_cij/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/cbertelegni/analisis_fallos_cij/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Analisis fallos cij maintained by <a href="https://github.com/cbertelegni">cbertelegni</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
+=======
+<head>
+	<title>Cómo votan los diputados?</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?v1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css?v1">
+	<link rel="stylesheet" type="text/css" href="css/style_datatable.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css?v1">
+<!--
+	<script type="text/javascript" src="d3.v3.js"></script>
+ -->
+	<script type="text/javascript" src="js/d3.v3.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script>
+	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/handlebars.js"></script>
+	<script type="text/javascript" src="js/script_datatable.js"></script>
+	<script type="text/javascript" src="js/script.js?v3"> </script>
+
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<!-- <h1>Cómo votan los diputados?</h1> -->
+			<a href="https://twitter.com/datafestAR" class="brand">@DatafestAR - 2013</a>
+			<!-- <a href="#" class="brand">Atapas#index</a> -->
+			<div class="nav-collapse">
+				<ul class="nav pull-right" id="tab">
+					<li class="active"><a href="#tab_index" class="active">HOME</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="tab-pane active" id="tab_index">
+		<div class="row-fluid">
+			<div id="" class="span12">
+				<h3>Datos extraidos de CIJ | año 2008 al 2013</h3>
+				<hr>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div id="" class="span4">
+				<h3>Tribunales</h3>
+				<ul id="tribunales" class="lista">
+				</ul>
+			</div>
+			<div id="" class="span8">
+				<div class="cont_barras">
+					<div id="viz_ref_p"> <h2></h2> </div>
+					<div id="viz_ref"> <h2></h2> </div>
+					<div id="#" class="well">
+						<svg id="svg_donut" width="600" height="400"></svg>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="footer" class="">
+  <div class="container">
+    <p class="credit">Equipo de trabajo: <a href="https://twitter.com/cbertelegni">@cbertelegni</a> - Isabel Duelo - Rocio Cairo</p>
+    <p class="credit">Tecnologías: <a href="http://d3js.org/">d3.js</a> | <a href="http://jquery.com/">Jquery</a> | <a href="http://getbootstrap.com/">Bootstrap</a> </p>
+  </div>
+</footer>
+<div id="tooltip"></div>
+</body>
+</html>
+>>>>>>> 06be38eeaa904d14306e1113f14525549ef9c4f1
